@@ -24,6 +24,7 @@ h2{
 }
 
 #currWeather{
+    font-size: 25px;
     text-align: center;
     padding: 10px;
 }
