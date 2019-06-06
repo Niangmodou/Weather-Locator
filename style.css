@@ -1,0 +1,35 @@
+
+
+body{
+    background-color: rgb(234,244,235);
+    font-family: monospace, monospace;
+}
+
+h1{
+    text-align: center;
+    padding: 25px;
+    background-color: black;
+    color:white;
+
+}
+
+h2{
+    text-align: center;
+    padding: 20px;
+
+}
+
+#search{
+    text-align: center;
+}
+
+#currWeather{
+    text-align: center;
+    padding: 10px;
+}
+
+#btn{
+    background-color:orange;
+    padding:5px;
+    color:blue;
+}
