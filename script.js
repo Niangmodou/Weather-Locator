@@ -25,20 +25,20 @@ function makeCall(zipcode){
     request.send();
 }
 
-if (submit !=null){
-    submit.addEventListener("click",function(){
-        //zipcode = zipcode.value;
-        makeCall(zipcode.value);
-        console.log("hu",city,weather,temp);
-        display()
-    })
-};
-
-
-
 function display(){
     console.log(city,weather,temp);
     document.getElementById("city").innerHTML = city;
     document.getElementById("weather").innerHTML = weather;
     document.getElementById("temp").innerHTML = temp;
 };
+
+function main(){
+    if (submit !=null){
+        submit.addEventListener("click",function(){
+        //zipcode = zipcode.value;
+            makeCall(zipcode.value);
+            console.log("hu",city,weather,temp);
+            display()
+        })
+    };
+}
