@@ -12,3 +12,5 @@ data. This data is then parsed to retrieve the desired information.
 
 I have also attached a python script that uses the requests library
 to perform the same action.
+
+The website can be viewed at https://niangmodou.github.io/Weather-Locator/
